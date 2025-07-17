@@ -1,0 +1,17 @@
+{
+    "users": [
+      { "username": "admin", "password": "123456" },
+      { "username": "student", "password": "aur123" }
+    ],
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Royal Enfield Classic 350",
+        "content": "A timeless cruiser with modern touches.",
+        "price": "₹1,93,080",
+        "mileage": "35 kmpl",
+        "image": "https://via.placeholder.com/150"
+      }
+    ]
+  }
+  
