@@ -1,0 +1,418 @@
+{
+    "users": [
+      {
+        "username": "admin",
+        "password": "123456"
+      },
+      {
+        "username": "sanika",
+        "password": "sanika123"
+      },
+      {
+        "username": "john",
+        "password": "john12"
+      }
+    ],
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Maruti Suzuki Swift",
+        "content": "A compact hatchback with excellent fuel efficiency and modern features.",
+        "price": "₹5,85,000",
+        "mileage": "22 kmpl",
+        "image": "https://images.91wheels.com/assets/b_images/main/models/profile/profile1747725666.jpg?width=420&q=60?w=420&q=60"
+      },
+      {
+        "id": 2,
+        "title": "Hyundai Creta",
+        "content": "A popular compact SUV with premium features and spacious interior.",
+        "price": "₹10,44,000",
+        "mileage": "17 kmpl",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTpcRj0ZRID8kac-q7i4OiS-i4vdGSpt3wP0BNf9o-nd4Ez3oq1IkIUMKIUngbotw3xAKBk0Zu6aAysyZFWND_WMAQNo6i-Uo_V6Sgp_m0q"
+      },
+      {
+        "id": 3,
+        "title": "Honda City",
+        "content": "A refined sedan with advanced technology and comfortable ride.",
+        "price": "₹11,50,000",
+        "mileage": "18 kmpl",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXszExcuq3rNAj_94DP3HOQ4-dIyb5QXh3nQ&s"
+      },
+      {
+        "id": 4,
+        "title": "Tata Nexon",
+        "content": "A stylish compact SUV with excellent safety ratings.",
+        "price": "₹7,60,000",
+        "mileage": "17 kmpl",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4YnkAfo5fgdviegfBJwn2jtVZ-hZW69DZPA&s"
+      },
+      {
+        "id": 5,
+        "title": "Mahindra XUV700",
+        "content": "A feature-rich SUV with powerful engine and advanced tech.",
+        "price": "₹13,45,000",
+        "mileage": "13 kmpl",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6VNix6Qj58bPRGCMGhy_JT5fwWPpa0oTTww&s"
+      },
+      {
+        "id": 6,
+        "title": "Kia Seltos",
+        "content": "A premium compact SUV with bold design and modern features.",
+        "price": "₹10,90,000",
+        "mileage": "16 kmpl",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtfsOmMjLQp7A6Tiv4RiyPBn4X7oRAImTmA&s"
+      },
+      {
+        "id": 7,
+        "title": "Toyota Innova Crysta",
+        "content": "A reliable MPV perfect for family travels and long journeys.",
+        "price": "₹17,86,000",
+        "mileage": "15 kmpl",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_GYh4RCoc4ixVjTsE6ScZnkzxX16PjqMFTA&s"
+      },
+      {
+        "id": 8,
+        "title": "Maruti Suzuki Baleno",
+        "content": "A premium hatchback with spacious interior and smooth performance.",
+        "price": "₹6,35,000",
+        "mileage": "23 kmpl",
+        "image": "https://img.autocarindia.com/ExtraImages/20230505051656_20230206120905_opening%20_1_.jpg?w=700&c=1"
+      },
+      {
+        "id": 9,
+        "title": "Hyundai Verna",
+        "content": "A stylish sedan with premium features and excellent build quality.",
+        "price": "₹10,90,000",
+        "mileage": "18 kmpl",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTedHiaYpINK50TKd6fUsULGbCn_fLigTVBOnm_MEjAzlPXfOyPpf93FZg&s"
+      },
+      {
+        "id": 10,
+        "title": "Tata Harrier",
+        "content": "A bold SUV with commanding presence and powerful performance.",
+        "price": "₹15,49,000",
+        "mileage": "14 kmpl",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXs2Sg9pYiVvz3RFbxil5DRPWvJ8SOXRf2MA&s"
+      },
+      {
+        "id": 11,
+        "title": "Maruti Suzuki Ertiga",
+        "content": "A versatile 7-seater MPV ideal for growing families.",
+        "price": "₹8,64,000",
+        "mileage": "19 kmpl",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFiCY_uuvSLDpfVbLCRO8Hm-OfoZCN_Z2Fg&s"
+      },
+      {
+        "id": 12,
+        "title": "Honda Amaze",
+        "content": "A compact sedan with reliable performance and fuel efficiency.",
+        "price": "₹7,20,000",
+        "mileage": "19 kmpl",
+        "image": "https://www.motorbeam.com/wp-content/uploads/Honda-Amaze-CVT-Long-Term-4.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Mahindra Scorpio",
+        "content": "A rugged SUV built for tough terrains and adventurous drives.",
+        "price": "₹13,62,000",
+        "mileage": "15 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 14,
+        "title": "Hyundai Grand i10 Nios",
+        "content": "A feature-packed hatchback with modern connectivity options.",
+        "price": "₹5,92,000",
+        "mileage": "20 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 15,
+        "title": "Tata Punch",
+        "content": "A micro-SUV with bold design and excellent ground clearance.",
+        "price": "₹6,13,000",
+        "mileage": "18 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 16,
+        "title": "Kia Sonet",
+        "content": "A compact SUV with premium features and stylish design.",
+        "price": "₹7,79,000",
+        "mileage": "18 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 17,
+        "title": "Renault Kwid",
+        "content": "An affordable hatchback with SUV-inspired design.",
+        "price": "₹4,70,000",
+        "mileage": "22 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 18,
+        "title": "Toyota Glanza",
+        "content": "A premium hatchback with Toyota's reliability and service network.",
+        "price": "₹6,89,000",
+        "mileage": "23 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 19,
+        "title": "Nissan Magnite",
+        "content": "A compact SUV with modern features and competitive pricing.",
+        "price": "₹6,74,000",
+        "mileage": "18 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 20,
+        "title": "Mahindra Bolero",
+        "content": "A sturdy utility vehicle popular in rural and semi-urban areas.",
+        "price": "₹9,53,000",
+        "mileage": "16 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 21,
+        "title": "Hyundai Venue",
+        "content": "A compact SUV with connected car technology and modern features.",
+        "price": "₹7,53,000",
+        "mileage": "17 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 22,
+        "title": "Maruti Suzuki Vitara Brezza",
+        "content": "A popular compact SUV with reliable performance and good resale value.",
+        "price": "₹8,34,000",
+        "mileage": "17 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 23,
+        "title": "Honda Jazz",
+        "content": "A premium hatchback with spacious interior and refined driving experience.",
+        "price": "₹7,89,000",
+        "mileage": "17 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 24,
+        "title": "Tata Tigor",
+        "content": "A compact sedan with attractive design and modern features.",
+        "price": "₹6,30,000",
+        "mileage": "19 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 25,
+        "title": "Mahindra XUV300",
+        "content": "A premium compact SUV with best-in-class safety features.",
+        "price": "₹8,41,000",
+        "mileage": "17 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 26,
+        "title": "Ford EcoSport",
+        "content": "A compact SUV with global appeal and robust build quality.",
+        "price": "₹8,69,000",
+        "mileage": "15 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 27,
+        "title": "Maruti Suzuki Wagon R",
+        "content": "A tall-boy hatchback with excellent space utilization.",
+        "price": "₹5,54,000",
+        "mileage": "21 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 28,
+        "title": "Hyundai Santro",
+        "content": "A compact hatchback with modern features and reliable performance.",
+        "price": "₹4,87,000",
+        "mileage": "20 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 29,
+        "title": "Toyota Camry",
+        "content": "A premium sedan with hybrid technology and luxurious features.",
+        "price": "₹41,70,000",
+        "mileage": "23 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 30,
+        "title": "Skoda Rapid",
+        "content": "A European sedan with solid build quality and refined performance.",
+        "price": "₹8,29,000",
+        "mileage": "16 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 31,
+        "title": "Volkswagen Polo",
+        "content": "A premium hatchback with German engineering and solid build.",
+        "price": "₹6,79,000",
+        "mileage": "16 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 32,
+        "title": "Jeep Compass",
+        "content": "A capable SUV with off-road prowess and premium features.",
+        "price": "₹18,99,000",
+        "mileage": "14 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 33,
+        "title": "MG Hector",
+        "content": "A connected SUV with internet features and spacious cabin.",
+        "price": "₹14,73,000",
+        "mileage": "13 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 34,
+        "title": "Maruti Suzuki Dzire",
+        "content": "India's best-selling compact sedan with excellent fuel economy.",
+        "price": "₹6,57,000",
+        "mileage": "22 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 35,
+        "title": "Tata Altroz",
+        "content": "A premium hatchback with 5-star safety rating and solid build.",
+        "price": "₹6,60,000",
+        "mileage": "19 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 36,
+        "title": "Hyundai Tucson",
+        "content": "A premium SUV with sophisticated design and advanced features.",
+        "price": "₹27,70,000",
+        "mileage": "13 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 37,
+        "title": "Honda WR-V",
+        "content": "A crossover with SUV styling and hatchback practicality.",
+        "price": "₹8,50,000",
+        "mileage": "16 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 38,
+        "title": "Mahindra Thar",
+        "content": "An iconic off-road SUV with rugged capability and modern features.",
+        "price": "₹13,59,000",
+        "mileage": "15 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 39,
+        "title": "Datsun GO",
+        "content": "An affordable hatchback with spacious interior and basic features.",
+        "price": "₹4,28,000",
+        "mileage": "19 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 40,
+        "title": "Renault Triber",
+        "content": "A modular 7-seater with flexible seating and modern design.",
+        "price": "₹6,18,000",
+        "mileage": "18 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 41,
+        "title": "Maruti Suzuki XL6",
+        "content": "A premium 6-seater MPV with captain seats and upmarket features.",
+        "price": "₹11,29,000",
+        "mileage": "19 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 42,
+        "title": "Skoda Octavia",
+        "content": "A premium sedan with European styling and advanced technology.",
+        "price": "₹26,29,000",
+        "mileage": "16 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 43,
+        "title": "BMW 3 Series",
+        "content": "A luxury sedan with ultimate driving pleasure and premium features.",
+        "price": "₹46,90,000",
+        "mileage": "15 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 44,
+        "title": "Audi A4",
+        "content": "A sophisticated sedan with cutting-edge technology and elegant design.",
+        "price": "₹45,34,000",
+        "mileage": "15 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 45,
+        "title": "Mercedes-Benz C-Class",
+        "content": "A luxury sedan with premium comfort and advanced safety features.",
+        "price": "₹47,75,000",
+        "mileage": "13 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 46,
+        "title": "Volvo XC90",
+        "content": "A luxury SUV with world-class safety and Scandinavian design.",
+        "price": "₹1,01,90,000",
+        "mileage": "12 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 47,
+        "title": "Jaguar XE",
+        "content": "A luxury sports sedan with dynamic performance and refined elegance.",
+        "price": "₹46,64,000",
+        "mileage": "14 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 48,
+        "title": "Land Rover Discovery Sport",
+        "content": "A premium SUV with off-road capability and luxurious interior.",
+        "price": "₹57,06,000",
+        "mileage": "12 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 49,
+        "title": "Porsche Macan",
+        "content": "A sports SUV with thrilling performance and iconic design.",
+        "price": "₹88,06,000",
+        "mileage": "11 kmpl",
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 50,
+        "title": "Tesla Model S",
+        "content": "An electric luxury sedan with cutting-edge technology and zero emissions.",
+        "price": "₹1,50,00,000",
+        "mileage": "500 km range",
+        "image": "https://via.placeholder.com/150"
+      }
+    ]
+  }

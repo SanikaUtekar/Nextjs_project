@@ -1,20 +1,24 @@
+// pages/api/Login.js
 import fs from 'fs';
 import path from 'path';
 
 export default function handler(req, res) {
-  const filePath = path.join(process.cwd(), 'data', 'data.json');
-  const fileData = fs.readFileSync(filePath);
-  const json = JSON.parse(fileData);
-
   if (req.method === 'POST') {
     const { username, password } = req.body;
 
-    const user = json.users.find(
-      u => u.username === username && u.password === password
+    // Get the absolute path to data.json
+    const filePath = path.join(process.cwd(),'public', 'data.json');
+
+    // Read the data.json file
+    const jsonData = fs.readFileSync(filePath);
+    const data = JSON.parse(jsonData);
+
+    const user = data.users.find(
+      (u) => u.username === username && u.password === password
     );
 
     if (user) {
-      res.status(200).json({ success: true, user });
+      res.status(200).json({ success: true });
     } else {
       res.status(401).json({ success: false, message: 'Invalid credentials' });
     }
